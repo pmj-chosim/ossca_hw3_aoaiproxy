@@ -1,0 +1,72 @@
+﻿@rendermode InteractiveServer
+@using System.Web
+@using Aliencube.YouTubeSubtitlesExtractor.Abstractions
+
+@inject IApiClientService ApiClient
+@inject IYouTubeVideo youtubeService
+
+<h3>YoutubeSummarizer</h3>
+
+<div class="continer" id="main">
+    <div class="col">
+        <label for="youtube-link" class="form-label"><strong>YouTube Link</strong></label>
+        <input id="youtube-link" @bind=inputURL @bind:after=SetYoutubeEmbedPlayer />
+    </div>
+
+
+    <div class="col">
+        <label for="video-language-code" class="form-label"><strong>Video is</strong></label>
+        <select id="video-language-code" @bind=videoLanguageCode>
+            <option value="en" selected>English</option>
+            <option value="ko">Korean</option>
+        </select>
+
+        <label for="summary-language-code" class="form-label"><strong>to Summary</strong></label>
+        <select id="summary-language-code" @bind=summaryLanguageCode>
+            <option value="en" selected>English</option>
+            <option value="ko">Korean</option>
+        </select>
+
+        <button id="summary" @onclick=SummarizeAsync>Summary</button>
+    </div>
+
+    <div class="col">
+        <textarea id="result" @bind=summaryResult></textarea>
+    </div>
+</div>
+
+@code {
+    private static readonly string YOUTUBE_EMBED_URL = "https://www.youtube.com/embed/";
+    private static readonly string YOUTUBE_EMBED_URL_DEFAULT = string.Empty;
+
+    private string inputURL = string.Empty;
+    private string youtubePlayerURL = YOUTUBE_EMBED_URL_DEFAULT;
+
+    private string videoLanguageCode = "en";
+    private string summaryLanguageCode = "en";
+    private string summaryResult = string.Empty;
+
+    private void SetYoutubeEmbedPlayer()
+    {
+        var vidId = youtubeService.GetVideoId(inputURL);
+
+        if (!String.IsNullOrEmpty(vidId))
+            youtubePlayerURL = YOUTUBE_EMBED_URL + vidId;
+        else
+            youtubePlayerURL = YOUTUBE_EMBED_URL_DEFAULT;
+    }
+
+    private async Task SummarizeAsync()
+    {
+        try
+        {
+            var result = await ApiClient.SummarizeAsync(inputURL, videoLanguageCode, summaryLanguageCode);
+            summaryResult = result;
+        }
+        catch (Exception ex)
+        {
+            summaryResult = ex.Message;
+        }
+    }
+}
+

@@ -1,0 +1,13 @@
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\bin\Release\net8.0\YoutubeSummarizer.ServiceDefaults.deps.json
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\bin\Release\net8.0\YoutubeSummarizer.ServiceDefaults.dll
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\bin\Release\net8.0\YoutubeSummarizer.ServiceDefaults.pdb
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\obj\Release\net8.0\YoutubeSummarizer.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\obj\Release\net8.0\YoutubeSummarizer.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\obj\Release\net8.0\YoutubeSummarizer.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\obj\Release\net8.0\YoutubeSummarizer.ServiceDefaults.AssemblyInfo.cs
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\obj\Release\net8.0\YoutubeSummarizer.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\obj\Release\net8.0\YoutubeSummarizer.ServiceDefaults.sourcelink.json
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\obj\Release\net8.0\YoutubeSummarizer.ServiceDefaults.dll
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\obj\Release\net8.0\refint\YoutubeSummarizer.ServiceDefaults.dll
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\obj\Release\net8.0\YoutubeSummarizer.ServiceDefaults.pdb
+C:\Users\parkm\Desktop\hw1\jebal\YoutubeSummarizer.ServiceDefaults\obj\Release\net8.0\ref\YoutubeSummarizer.ServiceDefaults.dll

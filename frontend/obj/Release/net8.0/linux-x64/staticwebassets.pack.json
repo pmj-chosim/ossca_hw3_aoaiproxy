@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\hw1\\jebal\\frontend\\obj\\Release\\net8.0\\linux-x64\\scopedcss\\projectbundle\\YoutubeSummarizer.Frontend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\YoutubeSummarizer.Frontend.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\hw1\\jebal\\frontend\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\hw1\\jebal\\frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\hw1\\jebal\\frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\parkm\\Desktop\\hw1\\jebal\\frontend\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.YoutubeSummarizer.Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.build.YoutubeSummarizer.Frontend.props",
+      "PackagePath": "build\\YoutubeSummarizer.Frontend.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.buildMultiTargeting.YoutubeSummarizer.Frontend.props",
+      "PackagePath": "buildMultiTargeting\\YoutubeSummarizer.Frontend.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.buildTransitive.YoutubeSummarizer.Frontend.props",
+      "PackagePath": "buildTransitive\\YoutubeSummarizer.Frontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

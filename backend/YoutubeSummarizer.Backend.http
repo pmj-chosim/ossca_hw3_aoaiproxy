@@ -1,0 +1,9 @@
+@hostaddress = http://localhost:5064
+
+GET {{hostaddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{hostaddress}}/summarise/
+Accept: text/plain
